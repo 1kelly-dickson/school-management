@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 app.get("/", (req,res) => {
-  res.send("Welcome to our server");
+  res.send("Welcome to our server this is mugengana kelly dickson");
 });
 app.get("/users", (req,res) => {
   db.excute("SELECT * FROM users", (err, results) => {
